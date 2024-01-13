@@ -1,0 +1,16 @@
+[
+{
+  "modid": "gt_pain_and_progression_mod",
+  "name": "GT:Pain And Progression Mod",
+  "description": "A Mod Made for my Minecraft Modpack I'm Working On.",
+  "version": "1.2",
+  "mcversion": "1.12.2",
+  "url": "https://www.youtube.com/channel/UCdnCd32JVsR8mSvxDrhFJTQ",
+  "updateUrl": "",
+  "authorList": ["DarkerBladeX"],
+  "credits": "Idk My viewers",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

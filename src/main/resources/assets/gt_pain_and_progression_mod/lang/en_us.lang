@@ -1,0 +1,20 @@
+//Items
+item.nori_rod.name=Nori Rod
+item.darkium_ingot.name=Darkium Ingot
+
+
+//Armour
+item.helmet_darkium.name=Darkium Helmet
+item.chestplate_darkium.name=Darkium Chestplate
+item.leggings_darkium.name=Darkium Leggings
+item.boots_darkium.name=Darkium Boots
+
+//Tools
+item.axe_darkium.name=Darkium Axe
+item.hoe_darkium.name=Darkium Hoe
+item.pickaxe_darkium.name=Darkium Pickaxe
+item.shovel_darkium.name=Darkium Shovel
+item.sword_darkium.name=Darkium Sword
+
+//Blocks
+tile.block_dauom.name=Dauom's Block
