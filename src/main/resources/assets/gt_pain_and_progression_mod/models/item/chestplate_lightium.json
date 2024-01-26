@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures":
+    {
+        "layer0": "gt_pain_and_progression_mod:item/chestplate_lightium"
+    }
+}

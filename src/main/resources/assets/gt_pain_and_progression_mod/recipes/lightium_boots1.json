@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "D D",
+        "D D"
+    ],
+
+    "key":
+    {
+        "D":
+        {
+            "item": "gt_pain_and_progression_mod:lightium"
+        }
+    },
+    "result":
+    {
+        "item": "gt_pain_and_progression_mod:boots_lightium",
+        "count": 1
+    }
+}

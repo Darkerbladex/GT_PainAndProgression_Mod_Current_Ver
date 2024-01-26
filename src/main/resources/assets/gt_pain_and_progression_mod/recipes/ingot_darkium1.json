@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "B"
+    ],
+
+    "key":
+    {
+        "B":
+        {
+            "item": "gt_pain_and_progression_mod:block_darkium"
+        }
+    },
+    "result":
+    {
+        "item": "gt_pain_and_progression_mod:darkium_ingot",
+        "count": 9
+    }
+}

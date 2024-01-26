@@ -1,6 +1,11 @@
 //Items
 item.nori_rod.name=Nori Rod
 item.darkium_ingot.name=Darkium Ingot
+item.lightium.name=Lightium
+item.unstable_lightium.name=Unstable Lightium
+
+//Tabs
+itemGroup.modtab=GT:Pain And Progression
 
 
 //Armour
@@ -9,6 +14,11 @@ item.chestplate_darkium.name=Darkium Chestplate
 item.leggings_darkium.name=Darkium Leggings
 item.boots_darkium.name=Darkium Boots
 
+item.helmet_lightium.name=Lightium Helmet
+item.chestplate_lightium.name=Lightium Chestplate
+item.leggings_lightium.name=Lightium Leggings
+item.boots_lightium.name=Lightium Boots
+
 //Tools
 item.axe_darkium.name=Darkium Axe
 item.hoe_darkium.name=Darkium Hoe
@@ -16,5 +26,27 @@ item.pickaxe_darkium.name=Darkium Pickaxe
 item.shovel_darkium.name=Darkium Shovel
 item.sword_darkium.name=Darkium Sword
 
+item.axe_lightium.name=Lightium Axe
+item.hoe_lightium.name=Lightium Hoe
+item.pickaxe_lightium.name=Lightium Pickaxe
+item.shovel_lightium.name=Lightium Shovel
+item.sword_lightium.name=Lightium Sword
+
 //Blocks
 tile.block_dauom.name=Dauom's Block
+tile.block_darkium.name=Darkium Block
+tile.block_lightium.name=Lightium Block
+
+//Ores
+
+//Overworld
+tile.ore_overworld_lightium.name=Lightium Ore
+tile.ore_overworld_darkium.name=Darkium Ore
+
+//Nether
+tile.ore_nether_lightium.name=Lightium Nether Ore
+tile.ore_nether_darkium.name=Darkium Nether Ore
+
+//End
+tile.ore_end_lightium.name=Lightium End Ore
+tile.ore_end_darkium.name=Darkium End Ore
