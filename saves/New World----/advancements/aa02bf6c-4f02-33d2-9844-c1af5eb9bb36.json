@@ -1,0 +1,11 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2024-01-27 12:00:52 -0800",
+      "plains": "2024-01-27 12:00:40 -0800",
+      "taiga": "2024-01-27 12:02:00 -0800",
+      "river": "2024-01-27 12:01:18 -0800"
+    },
+    "done": false
+  }
+}

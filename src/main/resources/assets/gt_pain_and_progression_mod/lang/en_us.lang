@@ -37,6 +37,17 @@ tile.block_dauom.name=Dauom's Block
 tile.block_darkium.name=Darkium Block
 tile.block_lightium.name=Lightium Block
 
+//Tree Stuff
+tile.planks_darkium.name=Darkium Infused Planks
+tile.log_darkium.name=Darkium Infused Log
+tile.leaves_darkium.name=Darkium Leaves
+tile.sapling_darkium.name=Darkium Saplings
+
+tile.planks_lightium.name=Lightium Infused Planks
+tile.log_lightium.name=Lightium Infused Log
+tile.leaves_lightium.name=Lightium Leaves
+tile.sapling_lightium.name=Lightium Saplings
+
 //Ores
 
 //Overworld

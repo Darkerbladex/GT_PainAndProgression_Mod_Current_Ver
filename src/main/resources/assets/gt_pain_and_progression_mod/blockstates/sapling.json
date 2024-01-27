@@ -1,0 +1,11 @@
+{
+    "variants":
+    {
+        "stage=0,variant=darkium": { "model": "gt_pain_and_progression_mod:sapling_darkium" },
+        "stage=1,variant=darkium": { "model": "gt_pain_and_progression_mod:sapling_darkium" },
+        
+        "stage=0,variant=lightium": { "model": "gt_pain_and_progression_mod:sapling_lightium" },
+        "stage=1,variant=lightium": { "model": "gt_pain_and_progression_mod:sapling_lightium" }
+    }
+}
+  

@@ -1,0 +1,7 @@
+{
+    "variants":
+    {
+        "variant=darkium": { "model": "gt_pain_and_progression_mod:planks_darkium" },
+        "variant=lightium": { "model": "gt_pain_and_progression_mod:planks_lightium" }
+    }
+}

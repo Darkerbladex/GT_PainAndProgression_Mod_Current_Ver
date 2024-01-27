@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_all",
+    "textures":
+    {
+        "all": "gt_pain_and_progression_mod:block/log_lightium"
+    }
+}

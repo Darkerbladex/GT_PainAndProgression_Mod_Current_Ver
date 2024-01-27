@@ -4,6 +4,7 @@ import darkerbladex.mods.init.BlockInit;
 import darkerbladex.mods.init.ItemInit;
 import darkerbladex.mods.util.IHasModel;
 import darkerbladex.mods.world.gen.WorldGenCustomOres;
+import darkerbladex.mods.world.gen.WorldGenCustomTrees;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -50,6 +51,6 @@ public class RegistryHandler {
 	public static void otherRegistries() {
 		
 		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
-		
+		GameRegistry.registerWorldGenerator(new WorldGenCustomTrees(), 0);
 	}
 }
