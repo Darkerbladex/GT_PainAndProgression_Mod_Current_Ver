@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.Random;
 
 import darkerbladex.mods.init.BlockInit;
+import darkerbladex.mods.world.gen.biomes.BiomeDarkiumForest;
+import darkerbladex.mods.world.gen.biomes.BiomeLightiumForest;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
@@ -34,8 +36,8 @@ public class WorldGenCustomTrees implements IWorldGenerator
 			
 		case 0:
 			
-			runGenerator(DARKIUM, world, random, chunkX, chunkZ, 5, Blocks.GRASS,  BiomeForest.class);
-			runGenerator(LIGHTIUM, world, random, chunkX, chunkZ, 5, Blocks.GRASS, BiomeForest.class);
+			runGenerator(DARKIUM, world, random, chunkX, chunkZ, 5, BlockInit.DIRT_DARKIUM,  BiomeDarkiumForest.class);
+			runGenerator(LIGHTIUM, world, random, chunkX, chunkZ, 5, BlockInit.DIRT_LIGHTIUM, BiomeLightiumForest.class);
 			
 			break;
 			

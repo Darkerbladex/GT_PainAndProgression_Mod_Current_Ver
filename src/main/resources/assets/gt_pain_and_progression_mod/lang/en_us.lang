@@ -4,6 +4,10 @@ item.darkium_ingot.name=Darkium Ingot
 item.lightium.name=Lightium
 item.unstable_lightium.name=Unstable Lightium
 
+//World Types
+generator.Darkium=Darkium
+generator.Custom=GT:Pain And Progression mod Biomes
+
 //Tabs
 itemGroup.modtab=GT:Pain And Progression
 
@@ -36,6 +40,8 @@ item.sword_lightium.name=Lightium Sword
 tile.block_dauom.name=Dauom's Block
 tile.block_darkium.name=Darkium Block
 tile.block_lightium.name=Lightium Block
+tile.dirt_darkium.name=Darkium Infused Soil
+tile.dirt_lightium.name=Lightium Infused Soil
 
 //Tree Stuff
 tile.planks_darkium.name=Darkium Infused Planks

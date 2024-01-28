@@ -26,9 +26,9 @@ public class Main {
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public static void preInit(FMLPreInitializationEvent event) {RegistryHandler.otherRegistries();}
+	public static void preInit(FMLPreInitializationEvent event) {RegistryHandler.preInitRegistries();}
 	@EventHandler
 	public static void init(FMLInitializationEvent event) {}
 	@EventHandler
-	public static void PostInit(FMLPostInitializationEvent event) {}
+	public static void PostInit(FMLPostInitializationEvent event) {RegistryHandler.postInitRegistries();}
 }

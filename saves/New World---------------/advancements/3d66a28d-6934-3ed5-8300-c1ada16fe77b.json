@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "taiga": "2024-01-27 19:20:00 -0800",
+      "extreme_hills": "2024-01-27 19:20:16 -0800"
+    },
+    "done": false
+  }
+}

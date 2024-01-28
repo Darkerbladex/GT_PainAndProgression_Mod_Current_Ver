@@ -1,17 +1,22 @@
 package darkerbladex.mods.util.handlers;
 
+import darkerbladex.mods.init.BiomeInit;
 import darkerbladex.mods.init.BlockInit;
 import darkerbladex.mods.init.ItemInit;
 import darkerbladex.mods.util.IHasModel;
 import darkerbladex.mods.world.gen.WorldGenCustomOres;
 import darkerbladex.mods.world.gen.WorldGenCustomTrees;
+import darkerbladex.mods.world.types.WorldTypeCustom;
+// import darkerbladex.mods.world.types.WorldTypeDarkium;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.world.WorldType;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+
 
 @EventBusSubscriber
 public class RegistryHandler {
@@ -48,9 +53,17 @@ public class RegistryHandler {
 		
 	
 	}
-	public static void otherRegistries() {
+	public static void preInitRegistries() {
 		
 		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
 		GameRegistry.registerWorldGenerator(new WorldGenCustomTrees(), 0);
+		
+		BiomeInit.registerBiomes();
+	}
+	public static void postInitRegistries() {
+		
+	//	WorldType DARKIUM = new WorldTypeDarkium();
+		WorldType CUSTOM = new WorldTypeCustom();
+		
 	}
 }
