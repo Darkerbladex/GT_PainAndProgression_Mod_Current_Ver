@@ -14,7 +14,7 @@ public class BiomeLightiumForest extends Biome {
 	protected static final WorldGenAbstractTree TREE = new WorldGenLightiumTree();
 	
 	public BiomeLightiumForest() {
-		super(new BiomeProperties("Lightium_Forest").setBaseHeight(0.5F).setHeightVariation(0.2F).setTemperature(0.9F).setRainfall(0.5F).setWaterColor(16777215));
+		super(new BiomeProperties("Lightium_Forest").setBaseHeight(1.0F).setHeightVariation(0.5F).setTemperature(0.9F).setRainfall(0.5F).setWaterColor(15788797));
 
 		topBlock = BlockInit.DIRT_LIGHTIUM.getDefaultState();
 		fillerBlock = BlockInit.ORE_OVERWORLD.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.LIGHTIUM);
