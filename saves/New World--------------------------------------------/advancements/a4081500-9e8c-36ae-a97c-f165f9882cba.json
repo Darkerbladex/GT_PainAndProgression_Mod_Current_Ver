@@ -1,0 +1,14 @@
+{
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2024-03-20 11:59:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2024-03-20 11:59:35 -0700"
+    },
+    "done": false
+  }
+}

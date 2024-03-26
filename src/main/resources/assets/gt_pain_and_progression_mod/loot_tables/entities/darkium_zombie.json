@@ -1,0 +1,50 @@
+{
+    "pools": [
+        {
+        "name": "DarkiumZombieMain",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 95,
+                    "name": "gt_pain_and_progression_mod:darkium_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "gt_pain_and_progression_mod:unstable_lightium",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "enchant_randomly",
+                            "enchantments": [
+                                "fire_aspect",
+                                "sharpness"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+               
+                
+                    
+                            
+                        

@@ -1,0 +1,14 @@
+{
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2024-03-20 17:53:08 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2024-03-20 17:52:34 -0700"
+    },
+    "done": false
+  }
+}

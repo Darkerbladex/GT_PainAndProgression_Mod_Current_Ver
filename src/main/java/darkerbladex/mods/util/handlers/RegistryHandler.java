@@ -2,9 +2,11 @@ package darkerbladex.mods.util.handlers;
 
 import darkerbladex.mods.init.BiomeInit;
 import darkerbladex.mods.init.BlockInit;
+import darkerbladex.mods.init.EntityInit;
 import darkerbladex.mods.init.ItemInit;
 import darkerbladex.mods.util.IHasModel;
 import darkerbladex.mods.world.gen.WorldGenCustomOres;
+import darkerbladex.mods.world.gen.WorldGenCustomStructures;
 import darkerbladex.mods.world.gen.WorldGenCustomTrees;
 import darkerbladex.mods.world.types.WorldTypeCustom;
 // import darkerbladex.mods.world.types.WorldTypeDarkium;
@@ -57,9 +59,17 @@ public class RegistryHandler {
 		
 		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
 		GameRegistry.registerWorldGenerator(new WorldGenCustomTrees(), 0);
+		GameRegistry.registerWorldGenerator(new WorldGenCustomStructures(), 0);
 		
 		BiomeInit.registerBiomes();
+		EntityInit.regiserEntities();
+		RenderHandler.registerEntityRenders();
 	}
+	public static void initRegistries() {
+		
+		SoundsHandler.registerSounds();
+	}
+	
 	public static void postInitRegistries() {
 		
 	//	WorldType DARKIUM = new WorldTypeDarkium();

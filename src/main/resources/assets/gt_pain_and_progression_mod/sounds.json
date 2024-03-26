@@ -1,0 +1,9 @@
+{
+	"block.block_dauom.redsig":
+	{
+		"category": "block",
+		"subtitle": "block.block_dauom.redsig",
+		"sounds": [{ "name": "gt_pain_and_progression_mod:block/block_dauom/redsig", "stream": true}]
+		}
+}
+

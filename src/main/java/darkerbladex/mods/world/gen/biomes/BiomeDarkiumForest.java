@@ -2,9 +2,8 @@ package darkerbladex.mods.world.gen.biomes;
 
 import java.util.Random;
 
-
+import darkerbladex.mods.entity.EntityDarkiumZombie;
 import darkerbladex.mods.init.BlockInit;
-import darkerbladex.mods.objects.blocks.BlockDirtBase;
 import darkerbladex.mods.objects.blocks.BlockOres;
 import darkerbladex.mods.util.handlers.EnumHandler;
 import darkerbladex.mods.world.gen.WorldGenDarkiumTree;
@@ -28,9 +27,15 @@ public class BiomeDarkiumForest extends Biome {
 		this.spawnableMonsterList.clear();
 		this.spawnableWaterCreatureList.clear();
 		
+		this.spawnableCreatureList.add(new SpawnListEntry(EntityDarkiumZombie.class, 1, 1, 25));
+		
+		
+		
 	}
 	 @Override
 	public WorldGenAbstractTree getRandomTreeFeature(Random rand) {
 		 return TREE;
 	}
+	 
+
 }

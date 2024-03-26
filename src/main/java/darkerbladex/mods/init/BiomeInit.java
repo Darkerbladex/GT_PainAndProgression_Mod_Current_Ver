@@ -24,7 +24,7 @@ public class BiomeInit {
 		ForgeRegistries.BIOMES.register(biome);
 		System.out.println("Biome Registerd");
 		BiomeDictionary.addTypes(biome, types);
-		BiomeManager.addBiome(biomeType, new BiomeEntry(biome, 10));
+		BiomeManager.addBiome(biomeType, new BiomeEntry(biome, 1));
 		BiomeManager.addSpawnBiome(biome);
 		System.out.println("Biome Registerd");
 		

@@ -1,0 +1,51 @@
+[09:30:56] [main/INFO]: Setting user: Player736
+[09:31:01] [main/WARN]: Skipping bad option: lastServer:
+[09:31:01] [main/INFO]: LWJGL Version: 2.9.4
+[09:31:04] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GT:Pain And Progression Mod
+[09:31:09] [main/WARN]: File gt_pain_and_progression_mod:sounds/block/block_dauom/redsig.ogg does not exist, cannot add it to event gt_pain_and_progression_mod:block.block_dauom.redsig
+[09:31:09] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[09:31:09] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[09:31:09] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[09:31:10] [Thread-5/INFO]: OpenAL initialized.
+[09:31:10] [Sound Library Loader/INFO]: Sound engine started
+[09:31:18] [main/INFO]: Created: 512x512 textures-atlas
+[09:31:20] [main/WARN]: Skipping bad option: lastServer:
+[09:31:20] [main/INFO]: Narrator library for x64 successfully loaded
+[09:31:21] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[09:31:28] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[09:31:28] [Server thread/INFO]: Generating keypair
+[09:31:29] [Server thread/INFO]: Loaded 488 advancements
+[09:31:29] [Server thread/INFO]: Preparing start region for level 0
+[09:31:30] [Server thread/INFO]: Changing view distance to 12, from 10
+[09:31:32] [Server thread/INFO]: Player736[local:E:433d20cf] logged in with entity id 18 at (-310.5, 4.0, -789.5)
+[09:31:32] [Server thread/INFO]: Player736 joined the game
+[09:31:34] [Server thread/INFO]: Saving and pausing game...
+[09:31:34] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[09:31:34] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[09:31:35] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[09:31:55] [main/INFO]: [CHAT] Player '1.0' cannot be found
+[09:31:57] [Server thread/INFO]: Saving and pausing game...
+[09:31:57] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[09:31:57] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[09:31:57] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[09:32:13] [Server thread/INFO]: [Player736: Played sound 'block.block_dauom.redsig' to Player736]
+[09:32:13] [main/WARN]: Unable to play unknown soundEvent: minecraft:block.block_dauom.redsig
+[09:32:13] [main/INFO]: [CHAT] Played sound 'block.block_dauom.redsig' to Player736
+[09:32:19] [Server thread/INFO]: [Player736: Played sound 'block.block_dauom.redsig' to Player736]
+[09:32:19] [main/INFO]: [CHAT] Played sound 'block.block_dauom.redsig' to Player736
+[09:32:20] [Server thread/INFO]: Saving and pausing game...
+[09:32:20] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[09:32:20] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[09:32:20] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[09:32:34] [Server thread/INFO]: [Player736: Played sound 'block.block_dauom.redsig' to Player736]
+[09:32:34] [main/INFO]: [CHAT] Played sound 'block.block_dauom.redsig' to Player736
+[09:32:57] [Server thread/INFO]: [Player736: Played sound 'block.block_dauom.redsigs' to Player736]
+[09:32:57] [main/WARN]: Unable to play unknown soundEvent: minecraft:block.block_dauom.redsigs
+[09:32:57] [main/INFO]: [CHAT] Played sound 'block.block_dauom.redsigs' to Player736
+[09:33:31] [Server thread/INFO]: [Player736: Played sound 'block.block_dauom.redsig' to Player736]
+[09:33:31] [main/INFO]: [CHAT] Played sound 'block.block_dauom.redsig' to Player736
+[09:33:44] [main/WARN]: Unable to play empty soundEvent: gt_pain_and_progression_mod:block.block_dauom.redsig
+[09:33:56] [Server thread/INFO]: Saving and pausing game...
+[09:33:56] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[09:33:56] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[09:33:56] [Server thread/INFO]: Saving chunks for level 'New World'/the_end

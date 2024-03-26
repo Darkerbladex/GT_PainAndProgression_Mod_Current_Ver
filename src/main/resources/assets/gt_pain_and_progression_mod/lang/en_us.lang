@@ -4,6 +4,9 @@ item.darkium_ingot.name=Darkium Ingot
 item.lightium.name=Lightium
 item.unstable_lightium.name=Unstable Lightium
 
+//Entity's
+entity.darkium_zombie.name=Darkium Infected Zombie
+
 //World Types
 generator.Darkium=Darkium
 generator.Custom=GT:Pain And Progression mod Biomes

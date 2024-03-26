@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2024-03-20 11:49:50 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "ice_flats": "2024-03-20 11:49:50 -0700",
+      "ice_mountains": "2024-03-20 11:50:03 -0700"
+    },
+    "done": false
+  }
+}

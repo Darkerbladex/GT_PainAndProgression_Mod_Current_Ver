@@ -1,0 +1,74 @@
+{
+    "pools": [
+        {
+        "name": "Darkium_Armoury_Chest_Main",
+            "rolls": {
+                "min": 3,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 45,
+                    "name": "gt_pain_and_progression_mod:darkium_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "gt_pain_and_progression_mod:sapling",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 20,
+                    "name": "gt_pain_and_progression_mod:sword_darkium",
+                    "functions": [
+                        {
+                            "function": "enchant_randomly",
+                            "enchantments": [
+                                "fire_aspect",
+                                "sharpness",
+                                "bane_of_arthropods",
+                                "smite"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "gt_pain_and_progression_mod:axe_darkium",
+                    "functions": [
+                        {
+                            "function": "enchant_randomly",
+                            "enchantments": [
+                                "efficiency",
+                                "unbreaking",
+                                "sharpness",
+                                "silk_touch",
+                                "frost_walker"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}   
